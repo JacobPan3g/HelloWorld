@@ -10,6 +10,9 @@
 		16FF1A221876DF840086779D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FF1A211876DF840086779D /* Foundation.framework */; };
 		16FF1A251876DF840086779D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF1A241876DF840086779D /* main.m */; };
 		16FF1A291876DF840086779D /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16FF1A281876DF840086779D /* HelloWorld.1 */; };
+		16FF1A311876E3120086779D /* Cattle.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF1A301876E3120086779D /* Cattle.m */; };
+		16FF1A341876E6F10086779D /* Bull.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF1A331876E6F10086779D /* Bull.m */; };
+		16FF1A371876EB2D0086779D /* DoProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FF1A361876EB2D0086779D /* DoProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +29,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		162170E81877EB9E006AECE7 /* MyNSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNSObject.h; sourceTree = "<group>"; };
 		16FF1A1E1876DF840086779D /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FF1A211876DF840086779D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16FF1A241876DF840086779D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16FF1A271876DF840086779D /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		16FF1A281876DF840086779D /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
+		16FF1A2F1876E3120086779D /* Cattle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cattle.h; sourceTree = "<group>"; };
+		16FF1A301876E3120086779D /* Cattle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cattle.m; sourceTree = "<group>"; };
+		16FF1A321876E6F10086779D /* Bull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bull.h; sourceTree = "<group>"; };
+		16FF1A331876E6F10086779D /* Bull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bull.m; sourceTree = "<group>"; };
+		16FF1A351876EB2D0086779D /* DoProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoProxy.h; sourceTree = "<group>"; };
+		16FF1A361876EB2D0086779D /* DoProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,13 @@
 				16FF1A241876DF840086779D /* main.m */,
 				16FF1A281876DF840086779D /* HelloWorld.1 */,
 				16FF1A261876DF840086779D /* Supporting Files */,
+				16FF1A2F1876E3120086779D /* Cattle.h */,
+				16FF1A301876E3120086779D /* Cattle.m */,
+				16FF1A321876E6F10086779D /* Bull.h */,
+				16FF1A331876E6F10086779D /* Bull.m */,
+				16FF1A351876EB2D0086779D /* DoProxy.h */,
+				16FF1A361876EB2D0086779D /* DoProxy.m */,
+				162170E81877EB9E006AECE7 /* MyNSObject.h */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -139,6 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FF1A341876E6F10086779D /* Bull.m in Sources */,
+				16FF1A371876EB2D0086779D /* DoProxy.m in Sources */,
+				16FF1A311876E3120086779D /* Cattle.m in Sources */,
 				16FF1A251876DF840086779D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +271,7 @@
 				16FF1A2E1876DF840086779D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
